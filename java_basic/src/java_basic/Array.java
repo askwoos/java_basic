@@ -62,8 +62,8 @@ public class Array {
 		           			  };
 		
 			System.out.println(groups[1][1]);
-			System.out.println(groups.length);
-			System.out.println(groups[1].length);
+			System.out.println(groups.length);//행갯수
+			System.out.println(groups[1].length);//열갯수
 
 		
 	}//calculateValuse
