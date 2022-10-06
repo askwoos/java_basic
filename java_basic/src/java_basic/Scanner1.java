@@ -7,25 +7,24 @@ public class Scanner1 {
 		// TODO Auto-generated method stub
         
 		
+		
+		boolean result = false;
+		String id = "아담";
+		
 		Scanner sc1 = new Scanner(System.in);
-		Scanner sc2 = new Scanner(System.in);
-
-		
-		
-		System.out.println("나이:");
-		int age = sc1.nextInt();sc1.nextLine();
-		
-	    System.out.println("이름:");		
-		String name  = sc1.nextLine();
 				
+		System.out.println("아이디:");
 		
+		id = sc1.nextLine();
+	    result = id.equals("아담");
+	    	
 	    
-	    System.out.println(age);
-	    System.out.println(name);
+	    System.out.println(result);
+	    System.out.println();
 
 			
 		sc1.close();
-		sc2.close();
+	
 
 		
 	     		
